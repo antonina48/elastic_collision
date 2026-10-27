@@ -36,7 +36,7 @@ class AnimationApp:
         self.ball = self.create_random_ball()
 
         # Привязка клавиш клавиатуры для интерактива
-        self.root.bind("<Space>", self.toggle_pause)
+        self.root.bind("<space>", self.toggle_pause)
         self.root.bind("<r>", self.reset_animation)
         self.root.bind("<R>", self.reset_animation)
 
